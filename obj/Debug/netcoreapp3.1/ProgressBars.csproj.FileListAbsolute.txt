@@ -1,0 +1,8 @@
+C:\Users\Денис\source\repos\ProgressBars\bin\Debug\netcoreapp3.1\ProgressBars.deps.json
+C:\Users\Денис\source\repos\ProgressBars\bin\Debug\netcoreapp3.1\ProgressBars.dll
+C:\Users\Денис\source\repos\ProgressBars\bin\Debug\netcoreapp3.1\ProgressBars.pdb
+C:\Users\Денис\source\repos\ProgressBars\obj\Debug\netcoreapp3.1\ProgressBars.AssemblyInfoInputs.cache
+C:\Users\Денис\source\repos\ProgressBars\obj\Debug\netcoreapp3.1\ProgressBars.AssemblyInfo.cs
+C:\Users\Денис\source\repos\ProgressBars\obj\Debug\netcoreapp3.1\ProgressBars.csproj.CoreCompileInputs.cache
+C:\Users\Денис\source\repos\ProgressBars\obj\Debug\netcoreapp3.1\ProgressBars.dll
+C:\Users\Денис\source\repos\ProgressBars\obj\Debug\netcoreapp3.1\ProgressBars.pdb
