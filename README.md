@@ -23,9 +23,9 @@ namespace TestOfProgressBar
             var status = new Status("Installing", true);                       
             status.Report("MyApp.exe");
             Thread.Sleep(1000);
-            status.Report("Word.exe");
+            status.Report("Text.txt");
             Thread.Sleep(1000);
-            status.Report("VisualStudio.exe");
+            status.Report("Image.jpeg");
             Thread.Sleep(1000);
             status.Stop();
         }
