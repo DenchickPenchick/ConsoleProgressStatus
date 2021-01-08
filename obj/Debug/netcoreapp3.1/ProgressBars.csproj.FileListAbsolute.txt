@@ -6,3 +6,5 @@ C:\Users\Денис\source\repos\ProgressBars\obj\Debug\netcoreapp3.1\ProgressBa
 C:\Users\Денис\source\repos\ProgressBars\obj\Debug\netcoreapp3.1\ProgressBars.csproj.CoreCompileInputs.cache
 C:\Users\Денис\source\repos\ProgressBars\obj\Debug\netcoreapp3.1\ProgressBars.dll
 C:\Users\Денис\source\repos\ProgressBars\obj\Debug\netcoreapp3.1\ProgressBars.pdb
+C:\Users\Денис\source\repos\ProgressBars\bin\Debug\netcoreapp3.1\ProgressBars.xml
+C:\Users\Денис\source\repos\ProgressBars\obj\Debug\netcoreapp3.1\ProgressBars.csprojAssemblyReference.cache

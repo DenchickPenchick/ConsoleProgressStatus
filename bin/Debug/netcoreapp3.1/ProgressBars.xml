@@ -1,0 +1,138 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProgressBars</name>
+    </assembly>
+    <members>
+        <member name="T:ProgressBars.src.Count">
+            <summary>
+            Indicates doing proccess by index like this. Done 4/17
+            </summary>
+        </member>
+        <member name="P:ProgressBars.src.Count.Keyword">
+            <summary>
+            Set word that would indicate kind of process. If keyword equals "Installing": Installing 3/21
+            </summary>
+        </member>
+        <member name="P:ProgressBars.src.Count.XPosOfCount">
+            <summary>
+            Position of count (X)
+            </summary>
+        </member>
+        <member name="P:ProgressBars.src.Count.YPosOfCount">
+            <summary>
+            Position of count (Y)
+            </summary>
+        </member>
+        <member name="P:ProgressBars.src.Count.Index">
+            <summary>
+            Index of proccess
+            </summary>
+        </member>
+        <member name="P:ProgressBars.src.Count.ThingsCount">
+            <summary>
+            Count of procceses
+            </summary>
+        </member>
+        <member name="M:ProgressBars.src.Count.#ctor(System.String,System.Int32)">
+            <summary>
+            Initilizes new <see cref="T:ProgressBars.src.Count"/>
+            </summary>
+            <param name="keyword">Set word that would indicate kind of process. If keyword equals "Installing": Installing 3/21</param>
+            <param name="count">Count of procceses</param>
+        </member>
+        <member name="M:ProgressBars.src.Count.Report(System.Int32)">
+            <summary>
+            Report of changing value of progress
+            </summary>
+            <param name="value">New value</param>
+        </member>
+        <member name="M:ProgressBars.src.Count.SetCompleted(System.String)">
+            <summary>
+            Set completed string like this. Completed
+            </summary>
+            <param name="CompletedString">Set key word that will appear when proccess end.</param>
+        </member>
+        <member name="T:ProgressBars.ProgressBar">
+            <summary>
+            Indicates doing process by line like this [####------]
+            </summary>
+        </member>
+        <member name="F:ProgressBars.ProgressBar.CurrentValue">
+            <summary>
+            Current percent of procces.
+            </summary>
+        </member>
+        <member name="P:ProgressBars.ProgressBar.XPosOfProgressBar">
+            <summary>
+            Position of progress bar (X)
+            </summary>
+        </member>
+        <member name="P:ProgressBars.ProgressBar.YPosOfProgressBar">
+            <summary>
+            Position of progress bar (Y)
+            </summary>
+        </member>
+        <member name="M:ProgressBars.ProgressBar.#ctor(System.Boolean,System.Boolean)">
+            <summary>
+            Initializes new <see cref="T:ProgressBars.ProgressBar"/>
+            </summary>
+            <param name="percent">If true progress will be write percent like this. Done 20% [##------]</param>
+            <param name="animation">If true progress will be write animation like this. Done 20% [##------] // Done 30% [##------] ==</param>
+        </member>
+        <member name="M:ProgressBars.ProgressBar.Report(System.Int32)">
+            <summary>
+            Report of changing value of progress
+            </summary>
+            <param name="value">New value</param>
+        </member>
+        <member name="M:ProgressBars.ProgressBar.Stop">
+            <summary>
+            Stop animation
+            </summary>
+        </member>
+        <member name="T:ProgressBars.Status">
+            <summary>
+            Indicates doing process by name like this. Installing Image.img...
+            </summary>
+        </member>
+        <member name="P:ProgressBars.Status.Keyword">
+            <summary>
+            Set word that would indicate kind of process. If keyword equals "Installing": Installing MyApp.exe...
+            </summary>
+        </member>
+        <member name="P:ProgressBars.Status.CurrentThing">
+            <summary>
+            Current thing in progress
+            </summary>
+        </member>
+        <member name="P:ProgressBars.Status.XPosOfStatus">
+            <summary>
+            Position of status (X)
+            </summary>
+        </member>
+        <member name="P:ProgressBars.Status.YPosOfStatus">
+            <summary>
+            Position of status (Y)
+            </summary>
+        </member>
+        <member name="M:ProgressBars.Status.#ctor(System.String,System.Boolean)">
+            <summary>
+            Initializes new <see cref="T:ProgressBars.Status"/>
+            </summary>
+            <param name="keyword">Set word that would indicate kind of process. If keyword equals "Installing": Installing MyApp.exe...</param>
+            <param name="animation">If true progress will be write animation like this. Installing Image.img. Installing Image.img.. Installing Image.img...</param>
+        </member>
+        <member name="M:ProgressBars.Status.Report(System.String)">
+            <summary>
+            Report of changing value of progress
+            </summary>
+            <param name="value">New value</param>
+        </member>
+        <member name="M:ProgressBars.Status.Stop(System.Boolean,System.String)">
+            <summary>
+            Stop animation
+            </summary>
+        </member>
+    </members>
+</doc>
